@@ -440,6 +440,10 @@ if [ "$Web_yn" == 'y' -o "$DB_yn" == 'y' ];then
         done
 fi
 
+
+while :;do :; done
+
+
 chmod +x functions/*.sh init/* *.sh
 
 # init
